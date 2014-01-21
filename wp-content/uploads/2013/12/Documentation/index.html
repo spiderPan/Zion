@@ -1,0 +1,360 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Amaze Wordpress Version Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Amaze Parallax&rdquo; Documentation by &ldquo;Designova&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center"><img alt="Amaze" src="assets/images/logo.png"/></h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 18/Apr/2013<br>
+					By: Rakesh Suryavardhan AKA Ron<br>
+					Email: <a href="mailto:info@designova.net">info@designova.net</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to email via our user page contact form <a href="http://themeforest.net/user/designova">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#install">Upload and Install the theme</a></li>
+			<li><a href="#important">Important points to read</a>
+               <ol class="beta">
+               	 <li><a href="#onepage">How does a one page theme works?</a></li>
+               	 <li><a href="#amaze">Amaze backbone</a></li>
+               	 <li><a href="#scrollpo">What is scroll position?</a></li>
+               	 <li><a href="#plugin">The ScrollPO plugin</a></li>           	 
+               </ol>
+			</li>
+			<li><a href="#themeoptions">Using the theme options panel</a>
+               <ol class="beta">
+               	 <li><a href="#general">Basic Settings</a></li>
+               	 <li><a href="#appearance">Appearance Settings</a></li>
+               	 <li><a href="#social">Social Media</a></li>
+               	 <li><a href="#contact">Contact Form</a></li>              	 
+               </ol>
+			</li>
+			<li><a href="#posttypes">Custom Post Types</a>
+               <ol class="beta">
+               	 <li><a href="#portfolio">Portfolio</a></li>    	 
+               </ol>
+			</li>
+			<li><a href="#shortcodes">Shortcodes</a></li>
+			<li><a href="#pagemeta">Setting up the pages</a></li>	
+			<li><a href="#page">Page templates</a></li>					
+			<li><a href="#menu">Main Menu</a></li>
+			<li><a href="#extra">Other resourses</a></li>
+			<li><a href="#thanks">Vote Of Thanks</a></li>
+			
+		</ol>
+		
+		<hr>
+		
+		<h3 id="install"><strong>A) Upload and Install the theme</strong> - <a href="#toc">top</a></h3>
+		<div class="notice">Please Note: 
+			<ul>
+				<li>You need a running Wordpress 3.4 Version or higher on your server.</li>
+				<li>Install the theme through FTP method only. Do not use wordpress theme installer </li>
+		    </li>		
+		</div>
+		
+<!-- 		<img src="assets/images/htmlstructure.png" alt="HTML Structure" /> -->
+		
+		<p>1. After unzipping the 'Downloadpack' you can see a folder named <strong>Amaze</strong> this is the theme folder
+			<br/>
+			2. Upload the folder <strong>Amaze</strong> to your server  (upload to <strong>wp-content/themes/</strong> directory) using any FTP applications like Filezilla. 
+			<br/>
+			3. Login to your wordpress administration and navigate to <strong>Appearance &raquo; Themes</strong>
+			<br/>
+			4. Activate theme <strong>Amaze</strong>
+		</p>
+        <img src="assets/images/01_activate.png" alt="Activate Theme" />
+		<hr>
+<!-- ********************************************************************************* -->
+		<h3 id="important"><strong>B) Important points to read</strong> - <a href="#toc">top</a></h3>
+
+        <h3 id="onepage">B1. How does a one page theme works?</h3>
+        <p>Amaze is a one page enabled multi page theme. That means you can include differnt pages created from the wp-admin panel to a single page that appears as the index page of your website. You can add a page to 'onepage' by clicking 'Include to Onepage' meta option 'Yes' while creating the pages. 'Onepage' enabled pages will appear as  sections in index page. </p>
+        <p>For the proper working of the theme you need to set your 'Front page displays' to 'Your latest posts' under Settings >> Reading section of your wp-admin.</p>
+         <img src="assets/images/01_important.png" alt="Amaze"  />
+
+        <h3 id="amaze">B2. Amaze Backbone</h3>
+        <p>Amaze is made using the most advanced CSS framework 'Twitter Bootstrap'. It uses javascript based parallax and scroll libraries to create parallax and scroll trigger based effects. All of the animation effects are created using CSS3 and triggered based on the scroll poition value. That means when scroll reaches a certain value the effect begins. </p>
+        <p>Amaze has got variety of options to customize the theme to great level. We are also supplying a wordpress
+        	plugin (ScrollPO) to find the scroll poistion values easily. We have also created some built-in effects for most of the shortcodes and page titles along with the freedom to add your own css3 based effects.
+        </p>
+        <h3 id="scrollpo">B2. What is scroll poition? </h3>
+        <p>Scroll position is the value (in pixels) that how much you have scrolled from top of the browser. Here is a diagramatic explanation. </p>
+        <img src="assets/images/scrollpos.png" alt="Amaze"  />
+        <p>Begin Animation and End animation means, when the scroll reaches 0px the animation effects starts and works till the scroll reaches 500px. You can use any values like this for creating the effects that triggers on scroll positions.</p>   
+
+        <h3 id="plugin">B3. The ScrollPO plugin </h3>
+        <p>Finding the scroll poition values is actually a difficult job, that why we comes up with an easy solution. We are bundling a wordpress plugin along with the download pack under the plugins section. Inside the plugins folder you can find 'scrollpo' folder. Upload that folder to <strong>wp-content/plugins</strong> directory. After uploading the plugin folder go to plugin section in your wp-admin panel and activate the plugin. </p>
+                <img src="assets/images/02_important.png" alt="Amaze"  />
+        <p>After activating you can see a black floating strip that displays the value of scroll position according to the scroll. </p>        
+                <img src="assets/images/03_important_2.png" alt="Amaze"  />
+        <p>Only the logged in user can see the scrollPO display.</p>        
+
+		<hr>
+
+
+
+
+
+
+<!-- ********************************************************************************* -->
+
+
+		<h3 id="themeoptions"><strong>C) Theme Options Panel</strong> - <a href="#toc">top</a></h3>
+
+		<p>Theme options panel (Appearance >> Theme Options) contain many custom settings exclusive for the theme. Read on to know more </p>  
+
+        <h3 id="general">C1. Basic Settings</h3>
+         <img src="assets/images/to_1.png" alt="General Settings"  />
+        <p>
+        1.<strong>Main Logo</strong> Upload Main Logo which appears on the top right corner of the website
+        <br/>
+        2.<strong>Mobile Logo</strong> Upload  Logo which appears with the mobile menu
+        <br/>  
+        3.<strong>Footer Title</strong> Text to appear above the address block. (Optional)
+        <br/>  
+        4.<strong>Optional Footer Logo</strong> Image to appear instead of Text above the address block.
+        <br/>  
+        5.<strong>Address</strong> Address to appear on the footer.
+        <br/> 
+        6.<strong>Copyright</strong> Copyright text 
+        <br/> 
+
+        <h3 id="appearance">C2. Appearance Settings</h3>
+         <img src="assets/images/to_2.png" alt="Splash Screen"  />
+        <p>
+        1.<strong>Favicon:</strong> Website favicon
+        <br/>
+        2.<strong>Background Images:</strong>Batckstrech background slideshow that appears as page backgrounds. 
+        <br/>
+        3.<strong>Theme Highlight Color:</strong> Replace our orange color with your own colors.
+        <br/>  
+        4.<strong>Custom CSS:</strong> Custom css rules for your theme.
+        <br/>               
+       </p>
+
+        <h3 id="social">C3. Social Media</h3>
+         <img src="assets/images/to_3.png" alt="Splash Screen"  />
+        <p>Fill your social media links here, these links will get displayed on the footer. If you leave the fields blank that particular icon will not get displayed. Apart from RSS feed you just need to fill the fields with your IDs only. 
+       </p>  
+
+        <h3 id="contact">C4. Contact Form</h3>
+         <img src="assets/images/to_4.png" alt="Splash Screen" width="790" />
+        <p>
+        This where you set up the contat page elements, to appear the contact page on your website you have to use contact form shortcode 
+        <strong>Contact form Email</strong>, you have to fill this filed with a valid email, other wise you wont receive emails from the contact form.
+        <br/>
+         <strong>Contact form Subject</strong>, Subject for email receiving through contact form
+       </p>  
+
+		<hr>
+		<h3 id="posttypes"><strong>D) Custom Post Types</strong> - <a href="#toc">top</a></h3>
+
+
+		<h3 id="portfolio"> Portfolio</h3>	
+		<p>First you have create categories for displaying the filterable portfolio. Group your projects to respective categories for the proper working of filters. Adding a portfolio item is same as adding a post in wordpress. Instead of regular post we have some custom fields here to fill. Please not that <strong> you must add a featured image</strong> with every portfolio post you add. </p>		
+		<img src="assets/images/portfolio.png" alt="General Settings"  /> 
+		<p>You can see two metabox options while adding portfolio item, one is 'zoom image' and the other is 'Featured Image Style'. Zoom image is for the image to appear in lighbox and Featured Image Style is to choose the appearance of featured image in masonary grid.  </p>
+		<p>You can post any type contents inside the portfolio. There will be single page for every portfolio post linked from the filterable portfolio grid. </p>
+		<img src="assets/images/portfolio_2.png" alt="General Settings"  /> 
+		<p>Filterable Portfolio grid will appear on a page with '[portfolio]' shortcode. </p>
+
+		<hr>
+		<h3 id="shortcodes"><strong>E) Shortcodes</strong> - <a href="#toc">top</a></h3>
+		<img src="assets/images/shortcodes.png" alt="General Settings" style="max-width:790px" />      	
+		<p>We have got a great set of shortcodes which are reusable to a great extend. You may use them alone or shall use them in groups. For a better understanding we have provided the dummy data we used on our demo. Please do import and refer them. In addition we have pinned shortcodes as Wordpress editor buttons, so you can add them in just one click. NB: We strongly recommed you to refer the demo content for a better understanding of the grouped shortcodes. </p>
+		<h3>List of Shortcodes</h3>
+
+        <h3>Row</h3>
+        <p><strong>[row additional_class=""][/row]</strong>. This is same as row class in bootstrap. Additional_class attribute is for adding any specific css classes.</p>
+
+        <h3>Columns</h3>
+        <p><strong>[columns span="6" start_animation ="" end_animation="" animate_in="" animate_out="" additional_class="" animation_preset=""][/columns]</strong>. This is same as columns  in bootstrap grid (Read more about <a href="https://github.com/twitter/bootstrap">bootstrap</a> grid here) but loaded with many additional features. Columns has got variety of attributes to customize the theme to a great extend. Columns are row dependant. Each row can hold 12 columns.</p>
+        <p>
+        	<strong>span:</strong> We are using 12 column grid so the span values can be 1-12. <br/>
+            <strong>start_animation:</strong> Scroll position value to start the animation effect (Use ScrollPO to find the value ). <br/>
+            <strong>end_animation:</strong> Scroll position value to end the animation effect (Use ScrollPO to find the value ). <br/>
+            <strong>animate_in and animate_out:</strong> They are optional attributes. If you are not using 'animation_preset' attribute you can use them to create your own effects.  <br/>
+
+            Consider an example of creating fade effect for a column with out presets. It will be like this.<br/>
+            [columns span="6" start_animation ="1400" end_animation="1500" animate_in="opacity:0" animate_out="opacity:1" ]
+            <br/>
+            In this example , column will appear while scroll reaches value of 1400 to 1500. As we are using css3 opacity rule, it will create a fade in effect.
+            <br/>
+           <strong>additional_class:</strong> This attribute is for adding any specific css classes <br/>
+           <strong>animation_preset:</strong> We have created a set of animation effects for columns. We will explain them in coming sections. If you are using 'animation_preset' 'animate_in' and 'animte_out' attributes will not work.<br/>
+
+        </p>
+
+        <h3>Skillset</h3>
+        <p>Skillset is for animated skillset as you can see in the about section of the demo. Its a grouped shortcode.<br/>
+         [skillset][skill start_animation="" end_animation="" size="" color=""][/skill][/skillset]
+         <br/>
+         [skillset]  is the container and the [skill] displays the skill. Skill has got four attributes in which 'start_animation' and 'end_animation' are scroll position values. Size is for the strength of your skill
+         in percentage (0-100). For color you can fill your favourite hexa decimal color code (Ex: #cdffdh). <br/>
+         Skillset has got built-in growing animation effect.
+        </p>
+
+       <h3>Portfolio</h3>
+       <p>[portfolio]: It will display filterable animated masonary portfolio grid. NB: You should not wrap 'portfolio' shortcode with 'row' or 'columns' shortcodes. </p>
+       
+       <h3>Team Member</h3>
+<p>
+[team_member start_animation="" end_animation="" animate_in="" animate_out="" animation_preset=""][member_name designation=""][/member_name][member_image image="PATH"][/member_image][member_description][/member_description][member_social facebook="" twitter="" linkedin=""][/member_social][/team_member]<br/><br/>
+
+     'start_animation','end_animation','animate_in','animate_out','animation_preset' attributes are same as them in columns shortcode. [team_member] is a six span column, so each [row] can only have two [team_member]. (Check the demo data) </p>
+     	<img src="assets/images/team_member.png" alt="General Settings" style="max-width:790px" />     
+
+       <h3>Contact Form</h3>
+        <p>[contactform] shortcode renders the contact form as you can see in the contact page of the demo.</p>
+
+       <h3>Testimonial</h3>
+       <p>[testimonial start_animation="" end_animation="" client_name="" company=""]CONTENT HERE[/testimonial]
+         <br/> It has built-in animation properties. You can see the demo inside services page in the demo section. This shortcode is [row] dependant.
+       </p>
+      
+      <h3>Flipbox</h3>
+      <P>[flipbox start_animation="" end_animation="" type="01/02/03" title=""]CONTENT HERE[/flipbox]. <br/>
+      	'start_animation' and 'end_animation' are scroll position values. 'type' attribute can have three differnt values 01,02 or 03 for three differnt background styles. These boxes has got 3D flip-in effect.</p>
+      	<img src="assets/images/flipbox.png" alt="General Settings" style="max-width:790px" />   
+
+      <h3>Carousel</h3>
+       <img src="assets/images/carousel.png" alt="General Settings" style="max-width:790px" />       
+      <p>We have shortcodefied the bootstrap carousel. <br/>
+      [carousel unique_id="" slides_count="" pagination="" pagination_position="" nextprev=""][carousel_image active=""]Your Image[/carousel_image][/carousel]<br/>
+
+      Every carousel should have a 'unique_id' preferably numbers and should also mention the 'slides_count' for the proper working of paginator. You can show/hide pagination using 'pagination'attribute. Its true by default you can hide pagination by passing false to 'pagination' attribute. 'pagination_position' attribute can have values 'left' or 'right'. If value 'nextprev' is true pagination will not work , instead of that next and previous buttons will appear.<br/><br/>
+
+      [carousel_image active=""]Your Image[/carousel_image]
+
+      <br/> These are the elements for carousel, repeat them inside the carousel shortcode. You can add &lt;img src=""&gt; of your image inside the content part of this shortcode. If the 'active' attribute set to true  , that particular image will be the active image of the carousel (Set it true for only one image in a carousel).
+
+        </p>
+
+      <h3>Project Spec</h3>  
+      <p>[project_specs][spec title=""]CONTENT[/spec][/project_specs]<br/>
+       You can repeat the spec shortcode. Here is how it gets displayed.
+       <img src="assets/images/two_short.png" alt="General Settings" style="max-width:790px" />  
+      </p>
+
+      <h3>Amaze Button</h3> 
+      <p>[amaze_link_btn link="full link"]TEXT[/amaze_link_btn]<br/>
+      	It has got link attribute and it displays like a button but actually its a link.(Check the above picture)
+      </p>  
+
+      <h3>Twitter Feed</h3>    
+      <p>[twitterfeed] shortcode for the live feed that appears on the splash screen in demo.</p> 
+
+        <hr/>
+
+
+
+		<h3 id="pagemeta"><strong>F) Setting up the pages</strong> - <a href="#toc">top</a></h3>	
+        <img src="assets/images/setting_page.png" alt="General Settings" style="max-width:790px" /> 
+
+        <h2>Page Options</h2>
+        <h3>Include to One Page</h3>
+        <p>You can include or exclude a page from the one page sections by using this switch.</p>
+
+        <h3>Heading Style</h3>
+        <p>There are two differnt heading styles dark ie black and light ie white. You can choose them according to your backgrounds</p>
+
+       <h3>Heading Promo Text</h3>
+       <p>A small paragraph that appears on the right side of the heading.</p>
+
+       <h3>Heading animation and Heading Highlight Animation</h3>
+       <p>A set of animation effects to choose for heading and heading highlight.</p>
+
+       <h3>Page/Section background and Background Image Position</h3>
+       <p>Background image for page/section and the position arrangements. </p>
+
+      <h3>Start animation and End Animation</h3>
+      <p>Scroll position values to start and end animation effects for headings and background images for splash screen</p>
+		<hr/>
+
+        <h3 id="page"><strong>G) Page Templates</strong> - <a href="#toc">top</a></h3>	
+        <p>
+         We have two page templates apart form the Default Template. Firt one is 'Home Splash Screen' which has got animation effect for background image and clean space without headings etc. The next one is 'Blog Page'which displays two latest posts and an ajax based pagination. NB: Please set 'Blog pages to show at most' to '2' in settings >> reading section.
+        </p>
+		<hr/>
+
+
+        <h3 id="menu"><strong>H) Setting the Menus</strong> - <a href="#toc">top</a></h3>	
+        <div class="notice"> To configure the menu use <strong>Apperance &raquo; Menus</strong> otherwise the menu will not get displayed. <br/></div>
+        <p>
+        	There are two menu locations first one is 'Primary Menu ' and  'Footer Quick Links'. Primary menu is the main menu for the theme and 'Footer Quick Links' appears on the left side of the footer segment.
+        </p>
+		<hr/>
+        
+        <h3 id="extra"><strong>I) Other Resourses</strong> - <a href="#toc">top</a></h3>	
+     
+         <h3>Precoded animation presets</h3>
+         <p>
+         	All those shortcodes with animation_preset attribute can use these effects along with scroll position values for animation effects.
+         	<ul>
+         		<li>fade</li>
+				<li>slide-left</li>
+				<li>slide-right</li>
+				<li>flip</li>
+				<li>rotate-left</li>
+				<li>rotate-right</li>
+         	</ul>
+        </p>
+
+        <p>
+        </p>
+		<hr/>
+
+
+		<h3 id="thanks"><strong>J) Vote Of Thanks</strong> - <a href="#toc">top</a></h3>	
+		<p> We have tried to cover all basic stuffs needed for you to quickly customize 
+			this template. That is all for the initial setup and basic customization. If 
+			you need help, we will be always in your reach. Kindly write to us at: 
+			info@designova.net. We will be glad to help you. We appreciate you follow 
+			us on twitter, we are @designovastudio on twitter. 
+			We are also open for any advanced customization project you may have. 
+			Kindly email us, so we can get back to you with a nice plan for such 
+			projects. 
+			We hope you have found this quick tutorial as helpful. If you like our 
+			works, please rate our themes at themeforest (theme’s page). This will 
+			help us to produce more awesome themes. 
+			http://www.themeforest.net/user/designova
+			Please visit our official site for more new stuffs and freebies.</p>
+          <center><a href="http://designova.net"><img src="assets/images/nove.png" alt="Designova" /></a></center>
+		<p><a href="#toc">Go To Table of Contents</a></p>		
+
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

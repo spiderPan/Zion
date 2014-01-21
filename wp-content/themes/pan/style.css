@@ -1,0 +1,371 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+@font-face {
+    font-family: 'sj';
+    src: url('styles/fonts/aaa.eot');
+    src: url('styles/fonts/aaa.eot?#iefix') format('embedded-opentype'), url('styles/fonts/aaa.woff') format('woff'), url('styles/fonts/aaa.ttf') format('truetype'), url('styles/fonts/aaa.svg#aaaregular') format('svg');
+
+}
+
+/*Here is the Chinese Characters*/
+
+html {
+    font-size: 100%;
+}
+
+.hid {
+    display: none;
+}
+
+body {
+    font-size: 1em;
+    background: url(images/bck.png) no-repeat;
+    background-size: contain;
+
+}
+
+.clear {
+    background: white;
+}
+
+.ch {
+    font-family: sj;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cen {
+    text-align: center;
+}
+
+/*Here is the San Page for TESTING!*/
+#sanPlayer {
+    width: 100%;
+}
+
+/*Header*/
+header {
+    line-height: 2.250em;
+    font-size: 1.5em;
+}
+
+nav {
+    text-align: center;
+}
+
+nav .ch {
+    font-size: 1.333em;
+}
+
+.navLink {
+    color: #030303;
+}
+
+.navLink:hover {
+    color: #9d2933;
+}
+
+.navLink:active {
+    color: #003472;
+}
+
+.navList {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/*Home*/
+#home {
+    font-size: 1.875em;
+}
+
+#name {
+    margin-top: 6.167em;
+}
+
+#goldfish {
+    margin-top: 16em;
+}
+
+.slogan {
+    margin-top: 18.667em;
+    text-align: center;
+    line-height: 1.875em;
+}
+
+.slogan .ch {
+    font-size: 1.400em;
+    margin: 0.5em;
+}
+
+/*portfolio*/
+#myPlayer {
+    width: 100%;
+}
+
+.product_item {
+    text-decoration: none;
+    font-family: Palatino Linotype;
+    color: #9c9b9b;
+}
+
+.product_item :hover {
+    color: #9d2933;
+}
+
+.videoInfo {
+    font-family: Palatino Linotype;
+    font-size: 1.750em;
+    font-style: italic;
+}
+
+.La {
+    position: relative;
+    margin: 0 auto;
+    width: 150px;
+    top: 0;
+    font-family: Palatino Linotype;
+    font-size: 1.250em;
+    height: 1.25em;
+    line-height: 1.25em;
+    background-color: rgba(107, 107, 107, 0.7);
+    color: whitesmoke;
+}
+
+#list {
+    margin-top: 3.125em;
+    text-align: center;
+}
+
+.viPanel {
+
+}
+
+/*About*/
+h2 {
+    text-align: center;
+}
+
+.introPar {
+    font-size: 1.750em;
+    font-family: Palatino Linotype;
+    font-style: italic;
+    margin-bottom: 1.75em;
+    line-height: 1.75em;
+}
+
+ul.introPar {
+    list-style: none;
+}
+
+.introPar li {
+    margin-top: 1.429em;
+}
+
+#myCanvas {
+    margin-bottom: 2em;
+}
+
+article {
+    line-height: 1.42em;
+}
+
+#myCanvas {
+    font-family: Palatino Linotype;
+}
+
+/*Contact*/
+#me {
+    box-shadow: -5px 5px 15px 15px grey;
+    -webkit-box-shadow: -5px 5px 15px grey;
+    -moz-box-shadow: -5px 5px 15px grey;
+    behavior: url(js//PIE/PIE.php);
+}
+
+form {
+    margin-top: 18.750em;
+    font-size: 1.250em;
+}
+
+form .ch {
+    font-size: 1.4em;
+}
+
+fieldset {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+
+fieldset div {
+    display: table-row;
+    margin: 1.550em 0;
+    text-align: center;
+}
+
+fieldset div label, textArea {
+    display: table-cell;
+}
+
+textArea {
+    width: 95%;
+}
+
+#intro_con {
+    text-align: center;
+}
+
+#intro_con img {
+    margin: 2em 0;
+}
+
+.cusInfo {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.rounded {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px black solid;
+    behavior: url(js//PIE/PIE.php);
+}
+
+.sLine {
+    font-size: 1em;
+    padding: 7px;
+}
+
+#msg label {
+    vertical-align: top;
+}
+
+#sub {
+    font-size: 1.250em;
+    font-family: Palatino Linotype;
+    margin-top: 2em;
+    cursor: pointer;
+    color: white;
+    -moz-border-radius: 2.255em;
+    -webkit-border-radius: 2.255em;
+    border-radius: 3.25em;
+    width: 5.200em;
+    height: 5.040em;
+    background: url(images/subBtn.png);
+    background-size: contain;
+    behavior: url(js//PIE/PIE.php);
+}
+
+/*Footer*/
+
+footer {
+    background: #151515;
+    font-family: Palatino Linotype;
+    line-height: 7.5em;
+}
+
+.mail {
+    font-size: 1em;
+    color: #9c9b9b;
+}
+
+.info {
+    list-style: none;
+    text-align: center;
+}
+
+.info li {
+    display: inline;
+    color: #9c9b9b;
+    margin: 0 0.1em;
+}
+
+.fa, .tw, .yt, .gp {
+    vertical-align: middle;
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    overflow: hidden;
+}
+
+.fa {
+    background: url(images/social.png) 0 0;
+}
+
+.fa:hover {
+    background: url(images/social.png) 0 108px;
+}
+
+.fa:active {
+    background: url(images/social.png) 0 54px;
+}
+
+.tw {
+    background: url(images/social.png) -54px 0;
+}
+
+.tw:hover {
+    background: url(images/social.png) -54px 108px;
+}
+
+.yt {
+    background: url(images/social.png) -108px 0;
+}
+
+.yt:hover {
+    background: url(images/social.png) -108px 108px;
+}
+
+.gp {
+    background: url(images/social.png) -162px 0;
+}
+
+.gp:hover {
+    background: url(images/social.png) -162px 108px;
+}
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+    body {
+        font-size: 0.7em;
+    }
+
+    #name {
+        display: none;
+    }
+
+    #goldfish {
+        margin-top: 0em;
+    }
+
+    .slogan {
+        margin-top: 0em;
+        text-align: center;
+    }
+
+    form {
+        margin: 1em 0;
+    }
+}
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    /*	.logo {
+            background: url(logo2x.jpg) no-repeat;
+            background-size: 212px 303px;
+        }*/
+
+}

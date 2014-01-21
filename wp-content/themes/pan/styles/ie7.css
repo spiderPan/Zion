@@ -1,0 +1,38 @@
+	nav{
+			padding-bottom:1.2em;
+		}
+	.soc{
+			padding-top:1.875em;
+		}
+		
+	fieldset div{
+		display:block;
+		margin:1.550em 0;
+		text-align:center;
+	}
+	fieldset div label, textArea{
+		display:block;
+		float:left;
+		}
+	label.cusInfo{
+		width:6.500em;
+	}
+	#msg label{
+		padding-right:1em;
+	}
+	
+	textArea{
+		float:left;
+		width:60%;
+	}
+	
+	@media handheld, only screen and (max-width: 767px) {
+	label.cusInfo, textArea{
+		width:100%;
+	}
+	
+	#sub{
+		background:url(../images/subBtnie7.png);
+	}
+	
+}

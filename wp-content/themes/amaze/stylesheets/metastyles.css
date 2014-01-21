@@ -1,0 +1,33 @@
+.title_boost
+{
+	padding: 10px 5px;
+	color: #383838;
+}
+.labelclass
+{
+	font-size: 14px;
+	width: 100%;
+	height: 25px; 
+	font-weight: bold;
+}
+.title_boost small
+{
+	color:#AAA;
+	padding: 3px;
+}
+.page_icons_holder
+{
+	border-top: solid 1px #ccc;
+	overflow: auto;
+}
+.iconsgrid
+{
+	width:45px;
+	float: left;
+	padding: 2px;
+	font-size: 14px;
+}
+.image_preview
+{
+	max-width: 200px;
+}

@@ -1,0 +1,9 @@
+.scrollpo-status { 	
+	width: 200px;
+	height: 30px;
+	margin: 150px auto;
+	position: fixed;
+	z-index: 9999999999;
+	text-align: center;
+	color: #fff;
+	background:rgba(0,0,0,0.8); }
